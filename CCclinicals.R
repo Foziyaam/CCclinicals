@@ -1,10 +1,10 @@
 ####
 #
-# -- short report and meta analysis to the journal "Science Progress" -----------
+# -- short report and meta analysis to the journal "Cancers" -----------
 #
 #
 
-setwd("/Users/seidmuhie/Documents/06032023_CNN_Application_MedicalImage_Classification/10072023_Cervical Cancer for Science Progress/10102023_Science Progress")
+setwd("10072023_Cervical Cancer for Science Progress/10102023_Cancers")
 
 # read the cervical cancer risk factors (table from caracas venzuala)
 
@@ -146,7 +146,7 @@ write.csv(res3, "uganda data correlation between the different variables.csv", r
 #-----the variable importances from Regularized Random Forest (RRF) algorithm--------
 #
 # Train an RRF model and compute variable importance.
-setwd("/Users/seidmuhie/Documents/06032023_CNN_Application_MedicalImage_Classification/10072023_Cervical Cancer for Science Progress/10102023_Science Progress")
+setwd("10072023_Cervical Cancer for Cancers/10102023_Cancers")
 rm (list = ls())
 # read the combination of the cervical cancer data data sets from the three cohorts
 tcga_mocc_htmcp = read.csv("For correlation TCGA HTMCP-Uganda MOCC-China.csv")
